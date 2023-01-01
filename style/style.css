@@ -796,9 +796,11 @@ border-radius: 4px;
     background-position: center;
     transition: background-color var(--transition),border-color var(--transition)
 }
+
 .modal-item-chek:checked + .modal-policy::before {
     background-color: var(--accent-color);
 }
+
 .modal-item-chek:focus + .modal-policy::before {
     background-color: #404BBF;
     border: 1.25px solid #404BBF;
@@ -813,6 +815,7 @@ border-radius: 4px;
 .modal-item-box {
     position: relative;
 }
+
 .modal-item-textarea    {
     padding: 10px 15px;
     resize: none;
@@ -824,6 +827,7 @@ border-radius: 4px;
     transition: border-color var(--transition);
     margin-bottom: 13px;
 }
+
 .modal-item-textarea::placeholder   {
     font-family:var(--primary-font);
     font-style: normal;
@@ -838,6 +842,7 @@ border-radius: 4px;
 .modal-item-textarea:focus    {
     border-color: var(--accent-color);
 } 
+
 .modal-policy   {
     margin-bottom: 24px;
     display: flex;
@@ -849,6 +854,7 @@ border-radius: 4px;
     letter-spacing: 0.04em;
     color: #757575;
 }
+
 .modal-item-chek {
     width: 16px;
     height: 16px;
